@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+.section {
+	background-image: linear-gradient(to right, #00ccff 0%, #66ffff 100%);
+}
+
+.header {
+	font-size: 30px;
+	margin: 100px;
+	line-height: 40px;
+}
+
+.flexboxbuttom {
+	display: flex;
+	width: 96vw;
+	margin-left: auto;
+	margin-right: auto;
+	height: 15vw;
+	border-radius: 40px;
+	background-color: #00CCFF;
+}
+
+.flexphoto {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 4px #FFFFFF;
+	width: 15vw;
+	height: 15vw;
+	background-color: #AC2525;
+	border-radius: 40px;
+	margin-top: 85vw;
+}
+
