@@ -4,9 +4,7 @@
 * {
 	font-family: 'Merriweather', serif;
 	text-align: center;
-}
-.section {
-	background-image: linear-gradient(to right, #00ccff 0%, #66ffff 100%);
+	background-image:url("../images/agfposter.png");
 }
 
 .header {
