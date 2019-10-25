@@ -3,7 +3,9 @@
 
 <head>
 <title>Eksempel</title>
-	
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
 <link rel="stylesheet" href="css/style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
@@ -19,11 +21,15 @@
 	
 <div id="fullpage">
 	<div class="section">
-		<div class="header">Velkommen til AGF's spillerside.</div>
-	<div class="flexcontainer">
-		<div class="flexboxbuttom"></div>				
+	
+	<div class="pageonecontainer">
+		<div class="question"></div>
+		<div class="slidecontainer">
+  <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+</div>
 	</div>
 	</div>
+	
 	<div class="section">Two</div>
 	<div class="section">Three</div>
 	<div class="section">Four</div>
@@ -34,6 +40,7 @@
         licenseKey: '1D6D99E8-3D444AD8-8BB133DE-16F57C4E',
     });
 </script>
+	
 </body>
 
 </html>
