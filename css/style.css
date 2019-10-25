@@ -17,26 +17,14 @@
 	line-height: 40px;
 }
 
-.flexboxbuttom {
-	display: flex;
-	width: 96vw;
-	margin-left: auto;
+.pageonecontainer {
 	margin-right: auto;
-	height: 15vw;
-	border-radius: 40px;
-	background-color: #00CCFF;
-}
-
-.flexphoto {
-	display: flex;
 	margin-left: auto;
-	margin-right: auto;
-	border: solid 4px #FFFFFF;
-	width: 15vw;
-	height: 15vw;
-	background-color: #AC2525;
-	border-radius: 40px;
-	margin-top: 85vw;
+	height: 60%;
+	width: 80%;
+	background-color: aliceblue;
+	border-radius: 20px;
+	box-shadow: 0 0 20px 0 black;
 }
 
 
