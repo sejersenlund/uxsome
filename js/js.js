@@ -31,5 +31,5 @@ findPlayer[2] = document.getElementById("sliderone");
 findPlayer[3] = document.getElementById("sliderone");
 
 if ("sliderOne" === 1) {
-	findPlayer = Array [1]
+	findPlayer = 
 }
