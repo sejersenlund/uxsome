@@ -36,4 +36,23 @@
 	border-radius: 40px;
 	margin-top: 85vw;
 }
-
+#over{
+    display: flex;
+    justify-content: center;
+}
+#over img {
+    top: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+    color: #06248A;
+    z-index: 100;
+    position: fixed;
+    width: 75%;
+    
+    
+}
+.baggrund{
+    background: #06248A;
+    z-index:5;
+}
