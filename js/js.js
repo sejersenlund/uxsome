@@ -22,7 +22,36 @@ images[0] = "../images/agfpostercold.png";
 images[1] = "../images/agfposterwarm.png";
 images[2] = "../images/agfposter.png";
 	
+/*Weather API*/
 
+function hentData(url, callback_Funktion) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", url, true);
+    xhttp.send();
+
+    xhttp.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status === 200) {
+            callback_Funktion(this);
+        }
+    };
+
+}
+
+function visData(jsonData) {
+    var jsonElementer = JSON.parse(jsonData.responseText);
+    var divIndhold = "";
+
+    divIndhold += '<p>Det er' +
+        + jsonElementer.main.temp + ' og det blæser ' +
+        jsonElementer.wind.speed ;
+
+    document.getElementById("indhold").innerHTML = divIndhold;
+
+}
+
+hentData("http://api.openweathermap.org/data/2.5/weather?q=Aarhus,dk&APPID=2fb0a6717d1db32dc445454559a4f371&units=metric", visData);
+	
+/*Dataanalyse*/
 	
 let findPlayer = new Array [0, 1, 2, 3, 4]
 
