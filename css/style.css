@@ -32,6 +32,10 @@
 	border-radius: 20px 0 0 20px;
 }
 
+.icon2 {
+	margin-top: 15px;
+}
+
 .pageonecontainertwo {
 	position: absolute;
 	margin-right: 0;
@@ -43,6 +47,7 @@
 	border-radius: 20px 0 0 20px;
 	box-shadow: 0 0 30px 0 black;
 }
+
 
 .question {
 	padding-top: 15vh;
