@@ -3,39 +3,80 @@
 
 <head>
 <title>Eksempel</title>
-	
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
 <link rel="stylesheet" href="css/style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
 <link rel="stylesheet" href="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css">
 <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+<link href="js/js.js" rel="stylesheet">
 
 </head>
 
 <body>
-    <div id="fullpage">
-        <div class="section">
-			<div class="header">Velkommen til AGF's spillerside.</div>
-		<div class="flexone">
-			<div class="flexphoto"></div>
-		</div>
-		<div class="flexcontainer">
-			<div class="flexboxbuttom"></div>				
-		</div>
-		</div>
-        <div class="section">Two</div>
-        <div class="section">Three</div>
-        <div class="section">Four</div>
-    </div>
-</body>
+	
 
+	
+<div id="fullpage">
+	<div class="section">
+	<div class="pageonecontainertwo"><img id="weight" src="images/weight.jpg" width="100%" height="100%" alt="weight"></div>
+	<div class="pageonecontainer">
+		<div class="question">Er du stærk eller hurtig?</div>
+		<div class="slidecontainer">
+		<div class="icon"><img src="images/strong.png" width="30px" alt="strong"></div>
+  		<input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+		<div class="icon"><img src="images/fast.png" width="30px" alt="strong"></div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="section">
+	<div class="pageonecontainertwo"><img id="weight" src="images/weight.jpg" width="100%" height="100%" alt="weight"></div>
+	<div class="pageonecontainer">
+		<div class="question">Er du stærk eller hurtig?</div>
+		<div class="slidecontainer">
+		<div class="icon"><img src="images/strong.png" width="30px" alt="strong"></div>
+  		<input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+		<div class="icon"><img src="images/fast.png" width="30px" alt="strong"></div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="section">
+	<div class="pageonecontainertwo"><img id="weight" src="images/weight.jpg" width="100%" height="100%" alt="weight"></div>
+	<div class="pageonecontainer">
+		<div class="question">Er du stærk eller hurtig?</div>
+		<div class="slidecontainer">
+		<div class="icon"><img src="images/strong.png" width="30px" alt="strong"></div>
+  		<input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+		<div class="icon"><img src="images/fast.png" width="30px" alt="strong"></div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="section">
+	<div class="pageonecontainertwo"><img id="weight" src="images/weight.jpg" width="100%" height="100%" alt="weight"></div>
+	<div class="pageonecontainer">
+		<div class="question">Er du stærk eller hurtig?</div>
+		<div class="slidecontainer">
+		<div class="icon"><img src="images/strong.png" width="30px" alt="strong"></div>
+  		<input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+		<div class="icon"><img src="images/fast.png" width="30px" alt="strong"></div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="section"></div>
+</div>
+	
 <script>
     new fullpage('#fullpage', {
         licenseKey: '1D6D99E8-3D444AD8-8BB133DE-16F57C4E',
-        sectionsColor: ['#fefefe', '#fefefe', '#fefefe', '#fefefe'],
     });
-
 </script>
-
+	
+</body>
 
 </html>
