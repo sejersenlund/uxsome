@@ -53,7 +53,7 @@ hentData("http://api.openweathermap.org/data/2.5/weather?q=Aarhus,dk&APPID=2fb0a
 	
 /*Dataanalyse*/
 	
-let findPlayer = new Array [0, 1, 2, 3, 4]
+let findPlayer = new Array (0, 1, 2, 3, 4)
 
 findPlayer[1] = document.getElementById("sliderone").value;
 findPlayer[2] = document.getElementById("slidertwo").value;
@@ -62,11 +62,37 @@ findPlayer[4] = document.getElementById("sliderfour").value;
 
 if (findPlayer[1] === 1) {
 	return "Aleksandar Jovanovic"
-} else if (findPlayer[2] === 2) {
-	return "Niklas Backman"
-} else if (findPlayer[3] === 3) {
+} else if (findPlayer[1] === 2) {
+	return "Aleksandar Jovanovic"
+} else if (findPlayer[1] === 3) {
 	return "Mustapha Bundu"
 }
+
+if (findPlayer [2] === 1) {
+	return "Aleksandar Jovanovic"
+} else if (findPlayer[2] === 2) {
+	return "Mustapha Bundu"
+} else if (findPlayer[2] === 3) {
+	return "Mustafa Amini"
+}
+	
+if (findPlayer [3] === 1) {
+	return "Mustafa Bundu"
+} else if (findPlayer [3] === 2) {
+	return "Mustafa Amini"
+} else if (findPlayer [3] === 3) {
+	return "Niklas Backman"
+}
+	
+if (findPlayer [4] === 1) {
+	return "Mustafa Amini"
+} else if (findPlayer [4] === 2) {
+	return "Niklas Backman"
+} else if (findPlayer [4] === 3) {
+	return "Aleksandar Jovanovic"
+}
+	
+/*WeatherAPI*/
 	
 function hentData(url, callback_Funktion) {
     var xhttp = new XMLHttpRequest();
