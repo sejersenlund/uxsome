@@ -95,20 +95,26 @@
 
 /*---------------forside---------------*/
 .forside {
-	background-color: white;
 	position: absolute;
 	background-image: url("../images/frontpage.png");
 	background-size: cover;
+	height: 100vh;
+	top: 0;
 }
 
 .whitebox {
 	background-color: white;
-	width: 100%;
-	height: 100%;
+	position: absolute;
+	bottom: 0;
+	z-index: 1000;
+	width: 100vw;
+	height: 12vh;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items:flex-end;
+	align-items: flex-end;
+		box-shadow: 0 0 30px 0 black;
+		border-radius: 20px 20px 0px 0px;
 }
 
 .whitebox img {
@@ -152,4 +158,71 @@
 	z-index: 105;
 	padding: 10px;
 	border-radius: 20px 20px 20px 20px;
+}
+
+/*---------------INSTAGRAM SIDEN-------------*/
+.snapwidget-widget {
+	margin-bottom: 11vh;
+	margin-top: 1vh;
+}
+
+#skubned {
+	  margin-top: 15.5vh;
+		line-height: 2px;
+}
+
+/*----------logobanner-----------*/
+#over {
+	display: flex;
+	justify-content: center;
+}
+
+#over img {
+	height: 100px;
+	position: fixed;
+	z-index: 100;
+	top: 2vh;
+}
+
+/*------------MENUBAR-------------*/
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+#menubar {
+  z-index: 95;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 70px;
+  background-color: #143b78;
+  bottom: 0px;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+}
+
+#menubar img {
+  width: 45px;
+	z-index: 95;
+}
+
+#redbuttom {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 95;
+  width: 70px;
+  height: 70px;
+  background-color: darkred;
+  border-radius: 50%;
+  bottom: 30px;
+  border: 6px white solid;
+}
+
+#redbuttom img {
+  width: 45px;
 }
