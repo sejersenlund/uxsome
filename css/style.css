@@ -97,7 +97,7 @@
 .forside {
 	background-color: white;
 	position: absolute;
-	background-image: url("../images/bg2.svg");
+	background-image: url("../images/frontpage.png");
 	background-size: cover;
 	background-position: top;
 	width: 100%;
@@ -127,9 +127,9 @@
 	justify-content: center;
 	box-sizing: border-box;
 	flex-direction: row;
-align-items: center;
+	align-items: center;
 	flex-wrap: wrap;
-		z-index: 102;
+	z-index: 102;
 	width: 100vw;
 	height: 40%;
 	margin-top: 17vh;
@@ -140,7 +140,7 @@ align-items: center;
 	width: 40vw;
 	height: 20vh;
 	background-color: white;
-	box-shadow: 0 4px 6px 0 white;
+	box-shadow: 0 0 30px 0 black;
 	z-index: 105;
 	border-radius: 20px 20px 20px 20px;
 	margin-bottom: 20px;
@@ -153,7 +153,7 @@ align-items: center;
 	width: 80vw;
 	height: 20vh;
 	background-color: white;
-	box-shadow: 0 4px 6px 0 white, 0 5px 5px 0 grey;
+	box-shadow: 0 0 30px 0 black;
 	z-index: 105;
 	padding: 10px;
 	border-radius: 20px 20px 20px 20px;
