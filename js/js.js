@@ -70,7 +70,7 @@ if (findPlayer[1]===1 && findplayer[2]===1 && findPlayer[3]===3 && findplayer[4]
 	return "Mustapha Bundu"
 } else if (findPlayer[1]===3 && findplayer[2]===3 && findPlayer[3]===1 && findplayer[4]===1) {
 	return "Mustafa Amini"
-}
+} 
 }
 	
 /*WeatherAPI*/
