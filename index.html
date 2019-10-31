@@ -18,10 +18,10 @@
 <body>
 
 <div id="fullpage">
-	<div id="indhold"></div>
 
 	<div class="section">
 	<div class="forside">
+		<div id="indhold"></div>
 		<div class="flexi">
 		<a href="camera.html">
 			<div class="lilleknap"><img src="images/camera.svg" alt="camera"><h2>Få et fiktivt billede med en AGF-spiller</h2></div></a>
@@ -91,20 +91,26 @@
 		<div class="icon"><img src="images/score.png" width="30px" alt="strong"></div>
 		</div>
 	</div>
-		<div id="section1" class="demo">
-	    <a href="#section5"><span></span><span></span><button class="button" type="button" onclick="showplayer();">Vis spiller</button></a></div>
-	</div>
- 
-	<div id="section5"></div>
-	<div class="section"></div>
-	
-</div>
+		 <div id="section1" class="demo">
+                <a href="#section5"><span></span><span></span><button class="button" type="button" onclick="showplayer();"></button></a></div>
+        </div>
 
-<script>
-    new fullpage('#fullpage', {
-        licenseKey: '1D6D99E8-3D444AD8-8BB133DE-16F57C4E',
-    });
-</script>
+        <div id="section5"></div>
+
+        <div class="section">
+			<button type="button" id="tjekSpiller"><h3>Se hvem du minder om?</h3></button>
+        </div>
+
+    </div>
+
+    <script>
+        new fullpage('#fullpage', {
+            licenseKey: '1D6D99E8-3D444AD8-8BB133DE-16F57C4E',
+        });
+
+    </script>
+    <script src="js/js.js"></script>
+
 
 </body>
 
