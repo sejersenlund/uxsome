@@ -79,6 +79,11 @@
 	line-height: 40px;
 }
 
+.button {
+	border-radius: 20px;
+	border: solid 2px black;
+}
+
 .pageonecontainer {
 	margin-right: auto;
 	margin-left: 0;
