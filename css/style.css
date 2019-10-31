@@ -6,6 +6,10 @@
 	text-align: center;
 }
 
+body {
+	margin: 0;
+}
+
 .section {
 	background-image:url("../images/agfposter.png");
 	background-size: cover;
@@ -205,6 +209,8 @@
 
 .lilleknap {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	width: 40vw;
 	height: 20vh;
 	background-color: white;
@@ -216,8 +222,20 @@
 	margin-left: 10px;
 }
 
+.flexi a {
+	font-size: 9.5px;
+	text-decoration: none;
+	color: black;
+}
+
+.flexi img {
+	height: 70px;
+}
+
 .storknap {
 	display: flex;
+align-items: center;
+	justify-content: center;
 	width: 80vw;
 	height: 20vh;
 	background-color: white;
@@ -263,7 +281,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100vw;
+  width: 100%;
   height: 70px;
   background-color: #143b78;
   bottom: 0px;
@@ -292,4 +310,103 @@ nav {
 
 #redbuttom img {
   width: 45px;
+}
+
+
+
+/*---------Du minder mest om denne spiller------------*/
+.players {
+	width: 100%;
+	padding: 0px;
+}
+
+.bpicker {
+display: flex;
+justify-content: space-around;
+margin-top: 2vh;
+padding: 4px;
+}
+
+.bpicker a {
+	display: flex;
+	font-size: 14px;
+	padding: 8px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	width: 40vw;
+	height: 80px;
+	background-color: #143b78;
+	box-shadow: 0 0 15px 0 black;
+	border-radius: 20px 20px 20px 20px;
+	text-decoration: none;
+}
+
+
+/*---------------CAMERA----------------*/
+#containercamera {
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+#containercamera img {
+    position: relative;
+        left: -110px;
+				bottom: 252px;
+		height: 250px;
+}
+#videoElement {
+	width: 100%;
+	height: auto;
+}
+
+
+/*------------FUTKORT-----------*/
+.futkort {
+	margin:0;
+	background-image: url("../images/firework.gif");
+	background-size: 170%;
+	width: 100%;
+	height: 94vh;
+	background-position: center;
+}
+
+.flexi2 {
+	display: flex;
+	justify-content: center;
+}
+
+.del{
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	border-radius: 20px;
+	background-color: white;
+	opacity: 0.7;
+	padding: 10px;
+    position: absolute;
+bottom: 130px;
+}
+
+#printlogo {
+	padding-left: 18px;
+}
+
+
+.futkort img {
+	width: 60%;
+	margin-top: 130px;
+	animation-duration: 2.5s;
+    animation-name: futanimation;
+}
+
+@keyframes futanimation{
+    from{
+        height:0px;
+        width: 0px;
+
+    }
+    to{
+        width: 60%;
+    }
 }
