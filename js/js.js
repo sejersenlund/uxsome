@@ -74,7 +74,7 @@ function visData(jsonData) {
     var divIndhold = "";
 
     divIndhold += '<p>På stadion er der ' +
-        +jsonElementer.main.temp + ' grader og ' +
+        +jsonElementer.main.temp + ' °C og ' +
         jsonElementer.wind.speed +
         ' m/sek</p>';
 
